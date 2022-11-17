@@ -1,0 +1,335 @@
+*{
+  margin:0;
+  padding: 0;
+}
+ul,li{
+  list-style: none;
+}
+.ground-wrapper{
+  background: #ECF0F5;
+  padding: 10px;
+  display: flex;
+  font-size:14px;
+  color:#333;
+  font-family: "微软雅黑";
+}
+.subBranch-left{
+  flex: 0 0 400px;
+  height: 100%;
+}
+.subBranch-l-t-card{
+  background: #fff;
+  padding:10px;
+}
+.subBranch-l-t-title{
+  margin-bottom: 10px;
+}
+.subBranch-l-t-title span{
+  display: inline-block;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+  background: #F2F2F2;
+  padding: 3px 12px;
+}
+.subBranch-l-t-content{
+
+}
+.subBranch-l-t-list-box{
+}
+.subBranch-l-t-list{
+  display: inline-block;
+  padding: 8px 5px;
+  border: 1px solid rgba(255,255,255,0);
+  cursor: pointer;
+}
+.subBranch-l-t-list:hover{
+  border: 1px solid #6ADBFF;
+  border-image: -webkit-linear-gradient(90deg,#6ADBFF,#4A4DE3) 1;
+  border-image: -moz-linear-gradient(90deg,#6ADBFF,#4A4DE3) 1;
+  border-image: linear-gradient(90deg,#6ADBFF,#4A4DE3) 1;
+}
+.subBranch-list-box{
+  display: flex;
+}
+.subBranch-list-left{
+  flex: 0 0 36px;
+}
+.subBranch-list-left img{
+  vertical-align: middle;
+  width: 100%;
+}
+.subBranch-list-right{
+  width: 100%;
+  line-height: 1.5em;
+  margin: 0 8px;
+  flex: 0 0 100%;
+}
+.subBranch-list-r-job{
+  color: #2f2f2f;
+}
+.subBranch-list-r-jobName{
+  font-size:12px;
+  color: #999;
+}
+.subBranch-l-bottom{
+  margin-top: 10px;
+  background: #fff;
+  padding: 10px;
+}
+.subBranch-l-b-tabEvent{
+
+}
+.subBranch-l-b-tabEvent{
+  border-bottom: 2px solid #ecf0f5;
+  height: 30px;
+  display: flex;
+}
+.subBranch-l-b-tabEvent li{
+  text-align: center;
+  color: #bbbbbb;
+  flex: 1;
+  cursor: pointer;
+  white-space:nowrap;
+  position: relative;
+}
+.subBranch-l-b-tabEvent li p{
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  z-index: 9;
+  border-bottom: 2px solid #f00;
+  border-image: -webkit-linear-gradient(90deg,#6ADBFF,#4A4DE3) 1;
+  border-image: -moz-linear-gradient(90deg,#6ADBFF,#4A4DE3) 1;
+  border-image: linear-gradient(90deg,#6ADBFF,#4A4DE3) 1;
+  width: 100%;
+}
+.subBranch-l-b-tabEvent li:hover{
+  color: #5f9fff!important;
+  font-size: 16px;
+}
+.subBranch-l-b-tabEvent li span{
+  line-height: 1em;
+  padding-left: 2px;
+}
+.subBranch-l-b-tabEvent li img{
+  vertical-align: bottom;
+}
+.subBranch-selected{
+  color: #5f9fff!important;
+  font-size: 16px;
+}
+.subBranch-l-b-box{
+  padding: 10px 0;
+}
+.subBranch-l-b-list{
+  margin: 0 5px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 5px;
+  border: 1px solid rgba(255,255,255,0);
+  cursor: pointer;
+}
+.subBranch-l-b-list:hover{
+  border: 1px solid #f00;
+  border-image: -webkit-linear-gradient(90deg,#6ADBFF,#4A4DE3) 1;
+  border-image: -moz-linear-gradient(90deg,#6ADBFF,#4A4DE3) 1;
+  border-image: linear-gradient(90deg,#6ADBFF,#4A4DE3) 1;
+}
+.subBranch-list-name{
+  padding: 5px 0;
+}
+.subBranch-list-star>img{
+  vertical-align: bottom;
+}
+
+.subBranch-right{
+  margin-left: 10px;
+  width: 100%;
+  height: 100%;
+}
+.subBranch-r-top{
+  display: flex;
+  height: 178px;
+}
+.subBranch-r-t-left{
+  padding: 10px 20px;
+  flex: 2;
+  background: #fff;
+}
+.subBranch-r-t-left p{
+  line-height: 1.5em;
+}
+.subBranch-r-t-l-label{
+}
+.subBranch-label-list{
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+  padding: 3px 15px;
+  background: #F2F4F4;
+  display: inline-block;
+  margin: 5px 0;
+}
+.subBranch-r-t-center{
+  padding: 10px 20px;
+  flex: 2;
+  background: url("../img/template1.png") no-repeat;
+  background-size: 100% 100%;
+  margin: 0 1%;
+  color: #fff;
+}
+.subBranch-manage{
+  display: flex;
+  margin-top: 5px;
+}
+.subBranch-manage>div{
+  flex: 0 0 50%;
+}
+.subBranch-manage>div>p{
+  height: 40px;
+  line-height: 40px;
+}
+.subBranch-manage-left{
+  text-align: right;
+
+}
+.subBranch-manage-right{
+  font-size: 16px;
+
+}
+.subBranch-r-t-right{
+  padding: 10px 20px;
+  flex: 3;
+  background: #fff;
+}
+
+.subBranch-r-mod{
+  margin-top: 15px;
+}
+.subBranch-r-mod-title{
+  padding-left: 5px;
+  border-left: 1px solid #2bacd5;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+.subBranch-r-mod-title p{
+
+}
+.subBranch-r-list1,subBranch-r-list2{
+  height: 140px;
+  display: flex;
+}
+.subBranch-r-list1-main{
+  height: 100%;
+  flex: 1;
+}
+.list1-l-bg{
+  background: url("../img/template2.png");
+  background-size: 100% 100%;
+}
+.list1-c-bg{
+  background: #fff;
+}
+.list1-r-bg{
+  background: #fff;
+}
+.list1-c-bg .subBranch-r-list1-l-txt,.list1-r-bg .subBranch-r-list1-l-txt{
+  color: #333;
+}
+.list1-c-bg .subBranch-r-list1-txt-left,.list1-r-bg .subBranch-r-list1-txt-left{
+  color: #bbb;
+}
+.subBranch-r-list1-l-txt{
+  height: 50%;
+  display: flex;
+  color: #fff;
+}
+.subBranch-r-list1-txt-left{
+  height: 100%;
+  line-height: 70px;
+  flex: 1;
+  text-align: center;
+}
+.subBranch-r-list1-txt-right{
+  height: 100%;
+  line-height: 70px;
+  flex: 1;
+  text-align: center;
+}
+.list1-r-bg .subBranch-r-list1-l-txt{
+  height: 33%;
+  border-left: 1px solid #ecf0f5;
+}
+.list1-r-bg .subBranch-r-list1-l-txt>div{
+  height: 100%;
+  line-height: 46px;
+}
+.subBranch-r-list2{
+  display: flex;
+}
+.subBranch-r-list2-left{
+  flex: 1;
+  background: #fff;
+  margin-right: 10px;
+  padding: 20px 10px;
+}
+.subBranch-r-list2-left .circleChart{
+  color: #04CEF8;
+}
+.subBranch-r-list2-left p{
+  margin-top: 15px;
+  text-align: center;
+}
+.subBranch-r-list2-left-box{
+
+}
+.subBranch-r-list2-center{
+  flex: 4;
+  background: #fff;
+  display: flex;
+}
+.subBranch-r-list2-center-circle{
+  flex: 1;
+  text-align: center;
+  padding: 20px 0;
+}
+.subBranch-r-list2-center-circle p{
+  margin-top: 15px;
+}
+.subBranch-r-list2-right{
+  flex: 1;
+  background: #f00;
+  background: -webkit-linear-gradient(90deg,#6ADBFF,#4A4DE3);
+  background: -moz-linear-gradient(90deg,#6ADBFF,#4A4DE3);
+  background: linear-gradient(90deg,#6ADBFF,#4A4DE3);
+  color: #fff;
+  text-align: center;
+}
+.subBranch-faction{
+  height: 100px;
+  line-height: 120px;
+  font-size: 34px;
+}
+.subBranch-r-list3{
+  background: #fff;
+}
+.subBranch-r-list4{
+  background: #fff;
+  padding: 20px;
+  display: flex;
+}
+.subBranch-r-list4-mod{
+  flex: 1;
+  text-align: center;
+}
+.subBranch-r-list4-mod-top{
+  background: #f2f4f4;
+  padding: 15px;
+  font-size: 14px;
+  color: #999;
+}
+.subBranch-r-list4-mod-bottom{
+  line-height: 2em;
+  margin-top: 10px;
+}
